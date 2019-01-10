@@ -1,0 +1,33 @@
+{
+  "name": "2019.madrid.wordcamp.org",
+  "version": "1.0.0",
+  "description": "Wordcamp Madrid Website CSS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch=true",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wordcampmadrid/madrid.wordcamp.org-2019.git"
+  },
+  "keywords": [
+    "wordcamp",
+    "css"
+  ],
+  "author": "Wordcamp Madrid Team 2019",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wordcampmadrid/madrid.wordcamp.org-2019/issues"
+  },
+  "homepage": "https://github.com/wordcampmadrid/madrid.wordcamp.org-2019#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1"
+  }
+}

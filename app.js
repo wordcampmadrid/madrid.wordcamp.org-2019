@@ -1,0 +1,1 @@
+const styles = require('./scss/index.scss');

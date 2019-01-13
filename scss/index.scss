@@ -1,8 +1,10 @@
 $font-stack: 'Inconsolata', monospace, sans-serif;
 $black: '#000';
+$white: '#FFF';
 $first-color: #d13144 ;
 $second-color: #b4394e;
 $third-color: #da3e57;
 
 @import 'body';
+@import 'header';
 

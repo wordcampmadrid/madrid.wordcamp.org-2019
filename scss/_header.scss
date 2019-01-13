@@ -1,0 +1,26 @@
+.page-navigation-container {
+  background: $second-color;
+  ul {
+    ul {
+      a {
+        color: $second-color;
+        &:hover {
+          color: $first-color;
+        }
+      }
+    }
+  }
+  li:hover {
+    a {
+      color: $second-color;
+    }
+  }
+  li:focus {
+    a {
+      color: $second-color;
+    }
+  }
+}
+.custom-header {
+  background: $white;
+}

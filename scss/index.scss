@@ -5,7 +5,7 @@ $first-color: #d13144 ;
 $second-color: #b4394e;
 $third-color: #da3e57;
 
+@import 'normalize';
+@import 'grid';
 @import 'body';
 @import 'header';
-@import 'grid';
-

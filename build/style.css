@@ -548,9 +548,8 @@ body {
 .dropdown-toggle {
 	display: none;
 }
-
 .menu-menu-1-container {
-  background: #d13144;
+  background: #da3e57;
 }
 .menu-menu-1-container .menu {
 	display: flex;
@@ -576,3 +575,17 @@ body {
     line-height: 1;
 		text-decoration: none;
 }
+
+@media (min-width: 1160px) {
+	.page-navigation-container:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: calc(50vw + 400px);
+		background: #d13144;
+		height: 86px
+	}
+}
+

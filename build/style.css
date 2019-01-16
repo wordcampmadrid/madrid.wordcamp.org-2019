@@ -488,6 +488,16 @@ template {
 }
 
 /*
+ General
+*/
+
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+/*
   Custom header
 */
 
@@ -523,4 +533,46 @@ template {
 	font-size: 4rem;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+/*
+  Menu
+*/
+
+.menu-toggle {
+  display: none;
+}
+.sub-menu {
+	display: none;
+}
+.dropdown-toggle {
+	display: none;
+}
+
+.menu-menu-1-container {
+  background: #d13144;
+}
+.menu-menu-1-container .menu {
+	display: flex;
+	padding: 0;
+	list-style: none;
+	background: #ffffff;
+	margin: 0 auto;
+  max-width: 60rem;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+}
+.menu-menu-1-container .menu .menu-item a {
+	  padding: 30px 20px;
+    color: #d13144;
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+		text-decoration: none;
 }

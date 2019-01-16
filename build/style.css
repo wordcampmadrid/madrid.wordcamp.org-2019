@@ -592,11 +592,11 @@ body {
     line-height: 1;
     text-decoration: none;
     margin: 0 20px;
+    min-width: 100px;
 }
 
 .menu-menu-1-container .menu .menu-item.callout {
   margin-left: auto;
-  width: 320px;
 }
 
 .menu-menu-1-container .menu li.menu-item.callout {
@@ -610,6 +610,7 @@ body {
 }
 .menu-menu-1-container .menu li.menu-item.callout a {
   color: #FFFFFF;
+  width: 320px;
 }
 
 .menu-menu-1-container .menu li.menu-item.callout:hover a {
@@ -625,7 +626,7 @@ body {
 		right: 0;
     left: calc(50vw + 450px);
 		background: #d13144;
-		height: 86px;
+		height: 126px;
 	}
 }
 

@@ -592,7 +592,11 @@ body {
     line-height: 1;
     text-decoration: none;
     margin: 0 20px;
-    min-width: 100px;
+    min-width: 200px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-menu-1-container .menu .menu-item.callout {

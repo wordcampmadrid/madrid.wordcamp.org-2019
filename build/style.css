@@ -562,26 +562,25 @@ body {
   padding: 0;
 }
 
-.menu-menu-1-container .menu .menu-item.li {
+.menu-menu-1-container .menu li.menu-item {
     background: #FFFFFF;
-    height: 86px;
     min-width: 100px;
     display:flex;
     align-items: center;
     justify-content: center;
     padding: 0;
-    
+    min-height: 86px;
 }
 
-.menu-menu-1-container .menu .menu-item.li:hover {
-  background: #d13144;
+.menu-menu-1-container .menu li.menu-item:hover {
+  background: #da3e57;
 }
 
-.menu-menu-1-container .menu .menu-item.li:hover a {
+.menu-menu-1-container .menu li.menu-item:hover a {
   color: #FFFFFF;
 }
 
-.menu-menu-1-container .menu .menu-item.li a {
+.menu-menu-1-container .menu li.menu-item a {
     color: #d13144;
     font-size: 18px;
     font-size: 1.2rem;
@@ -600,16 +599,21 @@ body {
   width: 320px;
 }
 
-.menu-menu-1-container .menu .menu-item.callout a {
-	margin-left: auto;
+.menu-menu-1-container .menu li.menu-item.callout {
+  margin-left: auto;
   background: #d13144;
+}
+
+.menu-menu-1-container .menu li.menu-item.callout:hover {
+  margin-left: auto;
+  background: #FFFFFF;
+}
+.menu-menu-1-container .menu li.menu-item.callout a {
   color: #FFFFFF;
 }
 
-.menu-menu-1-container .menu .menu-item.callout a:hover {
-	margin-left: auto;
+.menu-menu-1-container .menu li.menu-item.callout:hover a {
   color: #d13144;
-  background: #FFFFFF;
 }
 
 @media (min-width: 1160px) {

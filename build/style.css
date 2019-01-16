@@ -548,9 +548,7 @@ body {
 .dropdown-toggle {
 	display: none;
 }
-.menu-menu-1-container {
-  background: #da3e57;
-}
+
 .menu-menu-1-container .menu {
 	display: flex;
 	list-style: none;

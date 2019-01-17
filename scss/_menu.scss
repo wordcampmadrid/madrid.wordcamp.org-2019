@@ -13,15 +13,15 @@
 }
 
 .menu-menu-1-container {
-  display: flex;
-  list-style: none;
-  background: #ffffff;
-  margin: 0 auto;
-  max-width: 60rem;
-  position: relative;
-  width: 100%;
-  padding: 0;
   .menu {
+    display: flex;
+    list-style: none;
+    background: #ffffff;
+    margin: 0 auto;
+    max-width: 60rem;
+    position: relative;
+    width: 100%;
+    padding: 0;
     li.menu-item {
       background: #FFFFFF;
       min-width: 100px;

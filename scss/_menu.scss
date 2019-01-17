@@ -3,7 +3,10 @@
 */
 
 .menu-toggle {
-  display: none;
+  display: block;
+  @media (min-width: $mediaDesktop)  {
+    display: none;
+  }
 }
 .sub-menu {
   display: none;
@@ -73,18 +76,11 @@
   }
 }
 
-@media (min-width: $mediaDesktop) {
-  .page-navigation-container {
-    &:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: calc(50vw + 450px);
-      background: $primary;
-      height: 126px;
-    }
+.secondary-navigation{
+  &.page-navigation-container {
+    display: none;
+   &.toggled-on {
+     display: flex;
+   }
   }
 }
-

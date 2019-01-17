@@ -3,11 +3,30 @@
 */
 
 .menu-toggle {
-  display: block;
   visibility: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   &:before {
-   content: 'Menu';
-   visibility: visible;
+    content: 'Menu';
+    visibility: visible;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $primary;
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    text-decoration: none;
+    margin: 0 20px;
+    height: 45px;
   }
   @media (min-width: $mediaDesktop)  {
     display: none;

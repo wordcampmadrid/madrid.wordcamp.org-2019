@@ -100,6 +100,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            height: 50px;
             @media (min-width: $mediaDesktop) {
               height: 90px;
             }
@@ -114,7 +115,6 @@
               width: 320px;
             }
             &:hover {
-              margin-left: auto;
               background: $white;
               a {
                 color: $primary;

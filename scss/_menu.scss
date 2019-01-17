@@ -18,6 +18,11 @@
 }
 .secondary-navigation {
   &.page-navigation-container {
+    &.toggled-on {
+      .menu-menu-1-container {
+        display: flex;
+      }
+    }
     .menu-menu-1-container {
       display: none;
       @media (min-width: $mediaDesktop) {

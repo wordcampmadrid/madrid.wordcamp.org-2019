@@ -78,6 +78,9 @@
             background: $third;
             & > a {
               color: $white;
+              @media (min-width: $mediaDesktop) {
+                color: $primary;
+              }
             }
             @media (min-width: $mediaDesktop) {
               background: $white;

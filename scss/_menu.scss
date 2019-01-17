@@ -8,6 +8,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  &:hover {
+    cursor: pointer;
+  }
   &:before {
     content: 'Menu';
     visibility: visible;
@@ -15,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: $primary;
+    color: #d13144;
     font-size: 18px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -25,8 +28,11 @@
     -moz-osx-font-smoothing: grayscale;
     line-height: 1;
     text-decoration: none;
-    margin: 0 20px;
     height: 45px;
+    flex: 1;
+    position: absolute;
+    margin-right: 0;
+    margin-left: 0;
   }
   @media (min-width: $mediaDesktop)  {
     display: none;

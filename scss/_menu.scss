@@ -16,14 +16,14 @@
   .menu {
     display: flex;
     list-style: none;
-    background: #ffffff;
+    background: $white;
     margin: 0 auto;
     max-width: 60rem;
     position: relative;
     width: 100%;
     padding: 0;
     li.menu-item {
-      background: #FFFFFF;
+      background: $white;
       min-width: 100px;
       display:flex;
       align-items: center;
@@ -31,13 +31,13 @@
       padding: 0;
       min-height: 86px;
       &:hover {
-        background: #da3e57;
+        background: $primary;
         a {
-          color: #FFFFFF;
+          color: $white;
         }
       }
       a {
-        color: #d13144;
+        color: $primary;
         font-size: 18px;
         font-size: 1.2rem;
         font-weight: bold;
@@ -56,16 +56,16 @@
       }
       &.callout {
         margin-left: auto;
-        background: #d13144;
+        background: $secondary;
         a {
-          color: #FFFFFF;
+          color: $white;
           width: 320px;
         }
         &:hover {
           margin-left: auto;
-          background: #FFFFFF;
+          background: $white;
           a {
-            color: #d13144;
+            color: $secondary;
           }
         }
       }
@@ -73,7 +73,7 @@
   }
 }
 
-@media (min-width: 1160px) {
+@media (min-width: $mediaDesktop) {
   .page-navigation-container {
     &:after {
       content: '';
@@ -82,7 +82,7 @@
       bottom: 0;
       right: 0;
       left: calc(50vw + 450px);
-      background: #d13144;
+      background: $primary;
       height: 126px;
     }
   }

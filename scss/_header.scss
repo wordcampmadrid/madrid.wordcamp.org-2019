@@ -20,13 +20,13 @@
 
 .site-title, .site-description {
   display: flex;
-  color: #fff;
+  color: $white;
   font-size: 32px;
   font-size: 2rem;
   justify-content: center;
   padding-left: 2rem;
   a {
-    color: #fff;
+    color: $white;
     font-size: 64px;
     font-size: 4rem;
     font-weight: bold;

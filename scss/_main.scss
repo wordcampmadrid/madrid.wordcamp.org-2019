@@ -14,9 +14,9 @@ input[type="email"], input[type="text"] {
 }
 
 input[type="submit"] {
-  background: #d13144;
+  background: $primary;
   border: none;
-  color: #fff;
+  color: $white;
   font-size: 20px;
   font-size: 1.25rem;
   font-weight: bold;
@@ -26,7 +26,7 @@ input[type="submit"] {
   text-decoration: none;
   text-transform: uppercase;
   &:hover {
-    background: #da3e57;
+    background: $third;
   }
 }
 .site-main {
@@ -42,7 +42,7 @@ input[type="submit"] {
 .site-info {
   padding-top: 1rem;
   a {
-    color: #000;
+    color: $black;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
@@ -66,7 +66,7 @@ input[type="submit"] {
 }
 
 .entry-title {
-  color: #d13144;
+  color: $primary;
   font-size: 48px;
   font-size: 3rem;
   font-weight: bold;
@@ -82,9 +82,9 @@ input[type="submit"] {
 
 
 #primary-sidebar {
-  background: #2C325F;
+  background: $blue;
   box-shadow: 0 16px 0 rgba(39,54,167,0.2);
-  color: #fff;
+  color: $white;
   padding: 3rem 1rem;
 }
 

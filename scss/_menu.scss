@@ -74,6 +74,12 @@
           align-items: center;
           justify-content: center;
           padding: 0;
+          &.menu-item-has-children {
+            background: $third;
+            @media (min-width: $mediaDesktop) {
+              background: $white;
+            }
+          }
           .sub-menu {
             display: block;
             width: 100%;
@@ -92,6 +98,7 @@
                 position: absolute;
                 top: 90px;
                 padding-left: 65px;
+                width: auto;
               }
               li {
                 &.menu-item {

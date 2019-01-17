@@ -30,6 +30,7 @@
       }
       .menu {
         display: flex;
+        flex-direction: column;
         list-style: none;
         background: $white;
         margin: 0 auto;
@@ -37,6 +38,9 @@
         position: relative;
         width: 100%;
         padding: 0;
+        @media (min-width: $mediaDesktop) {
+          flex-direction: row;
+        }
         li.menu-item {
           background: $white;
           min-width: 100px;

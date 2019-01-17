@@ -4,6 +4,11 @@
 
 .menu-toggle {
   display: block;
+  opacity: 0;
+  &:before {
+   content: 'Menu';
+   opacity: 1;
+  }
   @media (min-width: $mediaDesktop)  {
     display: none;
   }

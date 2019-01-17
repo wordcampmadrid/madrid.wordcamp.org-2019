@@ -78,7 +78,6 @@
           align-items: center;
           justify-content: center;
           padding: 0;
-          min-height: 86px;
           &:hover {
             background: $third;
             a {
@@ -98,14 +97,18 @@
             text-decoration: none;
             margin: 0 20px;
             min-width: 200px;
-            height: 90px;
             display: flex;
             align-items: center;
             justify-content: center;
+            @media (min-width: $mediaDesktop) {
+              height: 90px;
+            }
           }
           &.callout {
-            margin-left: auto;
             background: $primary;
+            @media (min-width: $mediaDesktop) {
+              margin-left: auto;
+            }
             a {
               color: $white;
               width: 320px;

@@ -75,12 +75,3 @@
     }
   }
 }
-
-.secondary-navigation{
-  &.page-navigation-container {
-    display: none;
-   &.toggled-on {
-     display: flex;
-   }
-  }
-}

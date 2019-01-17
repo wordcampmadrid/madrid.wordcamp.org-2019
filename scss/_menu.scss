@@ -8,70 +8,81 @@
     display: none;
   }
 }
+
+
 .sub-menu {
   display: none;
 }
 .dropdown-toggle {
   display: none;
 }
-
-.menu-menu-1-container {
-  .menu {
-    display: flex;
-    list-style: none;
-    background: $white;
-    margin: 0 auto;
-    max-width: 60rem;
-    position: relative;
-    width: 100%;
-    padding: 0;
-    li.menu-item {
-      background: $white;
-      min-width: 100px;
-      display:flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
-      min-height: 86px;
-      &:hover {
-        background: $third;
-        a {
-          color: $white;
-        }
-      }
-      a {
-        color: $primary;
-        font-size: 18px;
-        font-size: 1.2rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        line-height: 1;
-        text-decoration: none;
-        margin: 0 20px;
-        min-width: 200px;
-        height: 90px;
+.secondary-navigation {
+  &.page-navigation-container {
+    .menu-menu-1-container {
+      display: none;
+      @media (min-width: $mediaDesktop) {
         display: flex;
-        align-items: center;
-        justify-content: center;
       }
-      &.callout {
-        margin-left: auto;
-        background: $primary;
-        a {
-          color: $white;
-          width: 320px;
-        }
-        &:hover {
-          margin-left: auto;
+      .menu {
+        display: flex;
+        list-style: none;
+        background: $white;
+        margin: 0 auto;
+        max-width: 60rem;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        li.menu-item {
           background: $white;
+          min-width: 100px;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+          min-height: 86px;
+          &:hover {
+            background: $third;
+            a {
+              color: $white;
+            }
+          }
           a {
             color: $primary;
+            font-size: 18px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            line-height: 1;
+            text-decoration: none;
+            margin: 0 20px;
+            min-width: 200px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          &.callout {
+            margin-left: auto;
+            background: $primary;
+            a {
+              color: $white;
+              width: 320px;
+            }
+            &:hover {
+              margin-left: auto;
+              background: $white;
+              a {
+                color: $primary;
+              }
+            }
           }
         }
       }
     }
   }
 }
+
+

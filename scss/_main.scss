@@ -1,0 +1,103 @@
+/*
+ General
+*/
+
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 12px;
+  font-size: 1.2rem;
+  background: #fff;
+}
+
+input[type="email"], input[type="text"] {
+  padding: .75rem;
+}
+
+input[type="submit"] {
+  background: #d13144;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 1rem 4rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover {
+    background: #da3e57;
+  }
+}
+.site-main {
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.site-footer {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.site-info {
+  padding-top: 1rem;
+  a {
+    color: #000;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.site-info-generator {
+  &::after {
+    content: "/";
+    display: inline;
+    padding: 0 7px 0 10px;
+    white-space: pre;
+  }
+}
+
+.hentry {
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 3rem 1rem;
+}
+
+.entry-title {
+  color: #d13144;
+  font-size: 48px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+
+
+#site-navigation, body.home #primary {
+  display: none;
+}
+
+
+#primary-sidebar {
+  background: #2C325F;
+  box-shadow: 0 16px 0 rgba(39,54,167,0.2);
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+#primary-sidebar {
+  #subscribe-email {
+    input {
+      width: 100%;
+    }
+  }
+}
+
+.widget_blog_subscription {
+  margin: 0 auto;
+  max-width: 640px;
+  text-align: center;
+}

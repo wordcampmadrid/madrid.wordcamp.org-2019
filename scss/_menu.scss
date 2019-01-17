@@ -76,7 +76,7 @@
           padding: 0;
           &.menu-item-has-children {
             background: $third;
-            a {
+            & > a {
               color: $white;
             }
             @media (min-width: $mediaDesktop) {

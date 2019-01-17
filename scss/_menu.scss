@@ -85,9 +85,17 @@
               flex-direction: column;
               top: 90px;
               z-index: 1;
+              padding-left: 65px;
               li {
-                a {
-                  height: 60px;
+                &.menu-item {
+                  a {
+                    height: 60px;
+                    color: $primary;
+                  }
+                  &:hover {
+                    background: $primary;
+                    color: $white;
+                  }
                 }
               }
             }

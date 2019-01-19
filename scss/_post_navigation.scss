@@ -1,0 +1,56 @@
+/* Post Navigation */
+
+.post-navigation,.posts-navigation {
+  *zoom:1;
+  &:after, &:before {
+    content:"";
+    display:table
+  }
+  &:after {
+    clear:both
+  }
+  .screen-reader-text {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden
+  }
+  a {
+    display:block;
+    color: $primary;
+    border-bottom: 2.5px solid $primary;
+    transition: all 0.4s ease-out 0s;
+    text-decoration:none;
+    &:hover {
+      box-shadow: $primary 0px -5.5rem 0px inset;
+      color: $white;
+      border-bottom: 3px solid $primary;
+    }
+  }
+  .nav-previous {
+    float:left;
+    text-align:left;
+    padding:3rem;
+    a {
+      &:before {
+        margin-right:.5rem;
+        display:inline-block;
+        content:"\2190"
+      }
+    }
+  }
+  .nav-next {
+    float:right;
+    text-align:right;
+    padding:3rem;
+    a {
+      &:after {
+        margin-left:.5rem;
+        display:inline-block;
+        content:"\2192"
+      }
+    }
+  }
+}

@@ -3,10 +3,25 @@
 */
 
 body {
-  font-family: 'Inconsolata', monospace;
-  font-size: 12px;
-  font-size: 1.2rem;
-  background: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  background: $white;
+  &:not(.home) {
+    .entry-content {
+      a {
+        color: $black;
+        text-decoration: none;
+        border-bottom: 2.5px solid $primary;
+        transition: all 0.4s ease-out 0s;
+        &:hover {
+          box-shadow: $primary 0px -5.5rem 0px inset;
+          color: $white;
+          border-bottom: 3px solid $primary;
+        }
+      }
+    }
+  }
 }
 
 input[type="email"], input[type="text"] {
@@ -19,9 +34,11 @@ input[type="submit"] {
   color: $white;
   font-size: 20px;
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 1px;
   padding: 1rem 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -29,6 +46,41 @@ input[type="submit"] {
     background: $third;
   }
 }
+
+h2, .entry-title {
+  font-family: "Inconsolata", monospace;
+}
+
+select {
+  border: 1px solid $grey;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  height: 3em;
+  max-width: 100%;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+  text-align:left;
+  margin-bottom:1.5rem
+}
+
+td,th {
+  padding:.5rem 1rem;
+  border-top:1px solid rgba(0,0,0,.1);
+  font-size:16px;
+  font-size:1rem;
+  line-height:1.5
+}
+
+
+@media (min-width:48em) {
+  td,th {
+    padding:1rem
+  }
+}
+
 .site-main {
   margin: 0 auto;
   padding-top: 3rem;
@@ -61,7 +113,7 @@ input[type="submit"] {
 
 .hentry {
   margin: 0 auto;
-  max-width: 760px;
+  max-width: 960px;
   padding: 3rem 1rem;
 }
 
@@ -69,7 +121,7 @@ input[type="submit"] {
   color: $primary;
   font-size: 48px;
   font-size: 3rem;
-  font-weight: bold;
+  text-align:center;
   text-decoration: underline;
   text-decoration-style: double;
 }
@@ -82,16 +134,14 @@ input[type="submit"] {
 
 
 #primary-sidebar {
-  background: $blue;
-  box-shadow: 0 16px 0 rgba(39,54,167,0.2);
-  color: $white;
+  background: #252525;
+  box-shadow: 0 16px 0 rgba(37, 37, 37, 0.2);
+  color: #fff;
   padding: 3rem 1rem;
-}
 
-#primary-sidebar {
   #subscribe-email {
     input {
-      width: 100%;
+      width: 80%;
     }
   }
 }

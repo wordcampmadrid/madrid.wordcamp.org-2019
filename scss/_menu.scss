@@ -35,7 +35,7 @@
     margin-right: 0;
     margin-left: 0;
   }
-  @media (min-width: $mediaDesktop)  {
+  @media (min-width: $desktopSize)  {
     display: none;
   }
 }
@@ -52,7 +52,7 @@
     }
     .menu-menu-1-container {
       display: none;
-      @media (min-width: $mediaDesktop) {
+      @media (min-width: $desktopSize) {
         display: flex;
       }
       .menu {
@@ -65,7 +65,7 @@
         position: relative;
         width: 100%;
         padding: 0;
-        @media (min-width: $mediaDesktop) {
+        @media (min-width: $desktopSize) {
           flex-direction: row;
         }
         li.menu-item {
@@ -79,11 +79,11 @@
             background: $third;
             & > a {
               color: $white;
-              @media (min-width: $mediaDesktop) {
+              @media (min-width: $desktopSize) {
                 color: $primary;
               }
             }
-            @media (min-width: $mediaDesktop) {
+            @media (min-width: $desktopSize) {
               background: $white;
             }
           }
@@ -93,14 +93,14 @@
             padding-left: 15px;
             flex-direction: column;
             z-index: 1;
-            @media (min-width: $mediaDesktop) {
+            @media (min-width: $desktopSize) {
               display: none;
             }
           }
           &:hover {
             background: $third;
             .sub-menu {
-              @media (min-width: $mediaDesktop) {
+              @media (min-width: $desktopSize) {
                 display: flex;
                 position: absolute;
                 top: 90px;
@@ -118,7 +118,7 @@
                   a {
                     height: 50px;
                     color: $primary;
-                    @media (min-width: $mediaDesktop) {
+                    @media (min-width: $desktopSize) {
                       height: 60px;
                     }
                   }
@@ -146,13 +146,13 @@
             align-items: center;
             justify-content: center;
             height: 50px;
-            @media (min-width: $mediaDesktop) {
+            @media (min-width: $desktopSize) {
               height: 90px;
             }
           }
           &.callout {
             background: $primary;
-            @media (min-width: $mediaDesktop) {
+            @media (min-width: $desktopSize) {
               margin-left: auto;
             }
             a {

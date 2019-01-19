@@ -6,10 +6,18 @@
   position: relative;
   min-height: 700px;
   background: url('https://2019.madrid.wordcamp.org/files/2019/01/wordcamp-madrid-bg-fondo-oso.jpg') no-repeat;
+  background-size: auto auto;
   background-size: cover;
   border-bottom-left-radius: 0 100%;
   border-bottom-right-radius: 80% 50%;
   box-shadow: 0 16px 0 rgba(255,0,0,0.2);
+  @media (max-width: $tabletSize) {
+    border-bottom-left-radius: 0 100%;
+    border-bottom-right-radius: 0 100%;
+  }
+  @media (max-width: $mobileSize) {
+    min-height: 500px;
+  }
   .custom-header, .custom-logo-link {
     display: flex;
     justify-content: center;
@@ -18,19 +26,56 @@
   }
 }
 
-.site-title, .site-description {
+.site-title {
   display: flex;
-  color: $white;
-  font-size: 32px;
-  font-size: 2rem;
+  color: #fff;
+  font-family: "Inconsolata", monospace;
+  font-size: 64px;
+  font-size: 4rem;
+  font-weight: bold;
   justify-content: center;
-  padding-left: 2rem;
+  padding: 0;
   a {
+    display: flex;
     color: $white;
+    font-family: "Inconsolata", monospace;
     font-size: 64px;
     font-size: 4rem;
     font-weight: bold;
-    text-decoration: none;
+    justify-content: center;
+    padding: 0;
+    @media (max-width: $desktopSize) {
+      font-size: 48px;
+      font-size: 3rem;
+    }
+    @media (max-width: $mobileSize) {
+      font-size: 32px;
+      font-size: 2rem;
+      text-align: center;
+    }
   }
 }
 
+.site-description {
+  display: flex;
+  color: $white;
+  font-family: "Inconsolata", monospace;
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: normal;
+  justify-content: center;
+  padding: 0;
+  @media (max-width: $desktopSize) {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+  @media (max-width: $tabletSize) {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  @media (max-width: $mobileSize) {
+    font-size: 14px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+}

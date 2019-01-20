@@ -88,6 +88,16 @@
           display: block;
           padding: 0;
           justify-content: flex-start;
+          position: relative;
+          &.current-menu-item {
+            a {
+              &:before {
+                position: absolute;
+                content: '';
+                border-bottom: solid 2px $primary;
+              }
+            }
+          }
           @media (min-width: $tabletSize) {
             display:flex;
             align-items: center;

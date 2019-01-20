@@ -742,7 +742,12 @@ td, th {
       min-width: 100px;
       display: block;
       padding: 0;
-      justify-content: flex-start; }
+      justify-content: flex-start;
+      position: relative; }
+      .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-item a:before {
+        position: absolute;
+        content: '';
+        border-bottom: solid 2px #d13144; }
       @media (min-width: 768px) {
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item {
           display: flex;

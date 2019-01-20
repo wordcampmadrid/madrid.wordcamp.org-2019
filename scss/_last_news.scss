@@ -115,7 +115,7 @@
           position: absolute;
           opacity: 0.05;
           z-index: -1;
-          color: grey;
+          color: $fourth;
           @media (min-width: $tabletSize) {
             font-size: 5rem;
             right: 0;

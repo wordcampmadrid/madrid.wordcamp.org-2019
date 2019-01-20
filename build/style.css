@@ -1531,7 +1531,7 @@ body:not(.home) .site-main {
           position: absolute;
           opacity: 0.05;
           z-index: -1;
-          color: grey;
+          color: #E88B9A;
           text-transform: uppercase; }
           @media (min-width: 768px) {
             .widget_rss ul li a:before {

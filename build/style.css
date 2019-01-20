@@ -714,10 +714,13 @@ td, th {
     .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item {
       background: #FFFFFF;
       min-width: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: block;
       padding: 0; }
+      @media (min-width: 768px) {
+        .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start; } }
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children {
         background: #da3e57; }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children > a {
@@ -728,12 +731,19 @@ td, th {
         @media (min-width: 768px) {
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children {
             background: #FFFFFF; } }
+        .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children .dropdown-toggle {
+          display: block; }
+          @media (min-width: 768px) {
+            .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children .dropdown-toggle {
+              display: none; } }
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item .sub-menu {
-        display: block;
+        display: none;
         width: 100%;
         padding-left: 15px;
         flex-direction: column;
         z-index: 1; }
+        .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item .sub-menu.toggled-on {
+          display: block; }
         @media (min-width: 768px) {
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item .sub-menu {
             display: none; } }

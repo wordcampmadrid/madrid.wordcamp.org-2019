@@ -103,22 +103,13 @@
             @media (min-width: $tabletSize) {
               background: $white;
             }
-            .dropdown-toggle {
-              display: block;
-              @media (min-width: $tabletSize) {
-                display: none;
-              }
-            }
           }
           .sub-menu {
-            display: none;
             width: 100%;
             padding-left: 15px;
             flex-direction: column;
             z-index: 1;
-            &.toggled-on {
-              display: block;
-            }
+            display: block;
             @media (min-width: $tabletSize) {
               display: none;
             }
@@ -171,10 +162,11 @@
             min-width: 200px;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             height: 50px;
             @media (min-width: $tabletSize) {
               height: 90px;
+              justify-content: center;
             }
           }
           &.callout {

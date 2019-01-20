@@ -519,7 +519,8 @@ body {
   background: #FFFFFF;
   letter-spacing: 0.4px;
   letter-spacing: 0.04rem;
-  line-height: 1.3rem; }
+  line-height: 1.3rem;
+  overflow-x: hidden; }
   body:not(.home) .entry-content a {
     color: #000000;
     text-decoration: none;

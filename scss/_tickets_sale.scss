@@ -41,13 +41,17 @@
 	}
 	&:before {
 		background: $third;
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
+		@media (min-width: $tabletSize) {
+			-webkit-transform: rotate(4deg);
+			transform: rotate(4deg);
+		}
 	}
 	&:after {
 		background: $secondary;
-    -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
+		@media (min-width: $tabletSize) {
+			-webkit-transform: rotate(-4deg);
+			transform: rotate(-4deg);
+		}
 	}
 }
 

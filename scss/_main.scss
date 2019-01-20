@@ -177,12 +177,15 @@ td,th {
   text-align: center;
 }
 
-.entry-meta {
+.entry-meta, .entry-footer {
   font-size: 12px;
   color: grey;
   a {
     color: grey;
     text-decoration: none;
     border-bottom: 1px solid $primary;
+  }
+  .edit-link {
+    margin-left: 20px;
   }
 }

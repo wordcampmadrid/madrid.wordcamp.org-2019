@@ -31,7 +31,8 @@ body {
     .custom-header {
       min-height: 200px;
       @media (min-width: $tabletSize) {
-        min-height: 200px;
+        min-height: 350px;
+        background: url(https://2019.madrid.wordcamp.org/files/2019/01/corta-wordcamp-madrid-bg-fondo-oso.jpg) no-repeat;
       }
       .custom-logo-link {
         padding-bottom: 0;
@@ -42,6 +43,9 @@ body {
       }
       .site-title {
         margin: 1rem 0;
+        @media (min-width: $tabletSize) {
+          margin: 3rem 0;
+        }
       }
     }
     .site-main {

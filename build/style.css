@@ -1667,11 +1667,14 @@ body:not(.home) .site-main {
   flex-direction: column; }
   @media (min-width: 768px) {
     .blog .site-main {
-      flex-direction: row; } }
+      flex-direction: row;
+      flex-wrap: wrap; } }
   .blog .site-main article {
     width: 100%; }
     @media (min-width: 768px) {
       .blog .site-main article {
-        width: 33%; } }
+        width: 30%; } }
+    .blog .site-main article a:-webkit-any-link {
+      color: #000000; }
 
 /*# sourceMappingURL=style.css.map */

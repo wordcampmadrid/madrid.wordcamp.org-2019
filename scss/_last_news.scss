@@ -64,3 +64,55 @@
     }
   }
 }
+
+
+.widget-title {
+  display: none;
+}
+.widget_rss {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      width: 33%;
+      list-style: none;
+      a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-size: 24px;
+        margin-bottom: 20px;
+        &:after {
+          background-color: $primary;
+          content: "";
+          display: block;
+          height: 2px;
+          margin-top: 1rem;
+          width: 4rem;
+          -webkit-transition: width .3s ease;
+          -o-transition: width .3s ease;
+          transition: width .3s ease;
+        }
+        &:before {
+          content: "#WCMAD";
+          display: inline-block;
+          position: relative;
+          opacity: .1;
+          font-size: 1.5rem;
+          @media (min-width: $tabletSize) {
+            font-size: 5rem;
+          }
+          text-transform: uppercase;
+        }
+        &:hover {
+          &:after {
+            width: 5rem;
+          }
+        }
+      }
+      .rssSummary {
+
+      }
+    }
+  }
+}

@@ -715,12 +715,13 @@ td, th {
       background: #FFFFFF;
       min-width: 100px;
       display: block;
-      padding: 0; }
+      padding: 0;
+      justify-content: flex-start; }
       @media (min-width: 768px) {
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item {
           display: flex;
           align-items: center;
-          justify-content: flex-start; } }
+          justify-content: center; } }
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children {
         background: #da3e57; }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children > a {

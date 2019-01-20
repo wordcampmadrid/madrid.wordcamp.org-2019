@@ -87,10 +87,11 @@
           min-width: 100px;
           display: block;
           padding: 0;
+          justify-content: flex-start;
           @media (min-width: $tabletSize) {
             display:flex;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
           }
           &.menu-item-has-children {
             background: $third;

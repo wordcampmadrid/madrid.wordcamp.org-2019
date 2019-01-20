@@ -1500,7 +1500,8 @@ body:not(.home) .site-main {
       text-decoration: none;
       font-size: 1.5rem;
       font-size: 24px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      position: relative; }
       .widget_rss ul li a:after {
         background-color: #d13144;
         content: "";
@@ -1531,6 +1532,8 @@ body:not(.home) .site-main {
             top: -10px; } }
       .widget_rss ul li a:hover:after {
         width: 5rem; }
+.widget_rss .rssSummary {
+  margin-top: 1rem; }
 
 .front-title {
   font-family: 'Rubik', sans-serif;

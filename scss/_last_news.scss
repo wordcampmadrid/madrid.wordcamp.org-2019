@@ -85,6 +85,7 @@
         font-size: 1.5rem;
         font-size: 24px;
         margin-bottom: 20px;
+        position: relative;
         &:after {
           background-color: $primary;
           content: "";
@@ -122,5 +123,8 @@
         }
       }
     }
+  }
+  .rssSummary {
+    margin-top: 1rem;
   }
 }

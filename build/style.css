@@ -768,6 +768,8 @@ td, th {
             .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-item > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-parent > a:before {
               bottom: 30px;
               width: 60%; } }
+      .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-item .current-menu-item > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-parent .current-menu-item > a:before {
+        display: none; }
       @media (min-width: 768px) {
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item {
           display: flex;

@@ -120,6 +120,13 @@
                 }
               }
             }
+            .current-menu-item {
+              & > a {
+                &:before {
+                  display: none;
+                }
+              }
+            }
           }
           @media (min-width: $tabletSize) {
             display:flex;

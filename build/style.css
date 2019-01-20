@@ -528,6 +528,9 @@ body {
       box-shadow: #d13144 0px -5.5rem 0px inset;
       color: #FFFFFF;
       border-bottom: 3px solid #d13144; }
+  body:not(.home) .entry-title {
+    color: #000000;
+    text-decoration: none; }
 
 input[type="email"], input[type="text"] {
   padding: .75rem; }

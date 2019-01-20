@@ -645,7 +645,8 @@ td, th {
 
 .entry-meta, .entry-footer {
   font-size: 12px;
-  color: grey; }
+  color: grey;
+  opacity: 0.5; }
   .entry-meta a, .entry-footer a {
     color: grey;
     text-decoration: none;

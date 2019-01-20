@@ -12,9 +12,13 @@
 	.custom-html-widget {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		height: 110px;
 		@media (min-width: $tabletSize) {
 		  flex-direction: row;
 		  transform: rotate(-5deg);
+		  align-items: inherit;
 		}
 		.label {
 			margin-right: 60px;

@@ -7,12 +7,14 @@ body {
   font-size: 16px;
   font-size: 1rem;
   background: $white;
+  letter-spacing: 0.4px;
+  letter-spacing: 0.4rem;
   &:not(.home) {
     .entry-content {
       a {
         color: $black;
         text-decoration: none;
-        border-bottom: 2.5px solid $primary;
+        border-bottom: 1px solid $primary;
         transition: all 0.4s ease-out 0s;
         &:hover {
           box-shadow: $primary 0px -5.5rem 0px inset;

@@ -744,13 +744,13 @@ td, th {
       padding: 0;
       justify-content: flex-start;
       position: relative; }
-      .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-item:hover > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item .current-menu-parent:hover > a:before {
+      .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-item:hover > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-parent:hover > a:before {
         position: absolute;
         content: '';
         border-bottom: solid 2px #FFFFFF;
         width: 60%;
         bottom: 30px; }
-      .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-item > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item .current-menu-parent > a:before {
+      .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-item > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.current-menu-parent > a:before {
         position: absolute;
         content: '';
         border-bottom: solid 2px #d13144;
@@ -827,13 +827,13 @@ td, th {
             justify-content: center; } }
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout {
         background: #d13144; }
-        .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout.current-menu-item:hover > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout .current-menu-parent:hover > a:before {
+        .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout.current-menu-item:hover > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout.current-menu-parent:hover > a:before {
           position: absolute;
           content: '';
           border-bottom: solid 2px #d13144;
           width: 60%;
           bottom: 30px; }
-        .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout.current-menu-item > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout .current-menu-parent > a:before {
+        .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout.current-menu-item > a:before, .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout.current-menu-parent > a:before {
           position: absolute;
           content: '';
           border-bottom: solid 2px #FFFFFF;

@@ -89,7 +89,7 @@
           padding: 0;
           justify-content: flex-start;
           position: relative;
-          &.current-menu-item, .current-menu-parent {
+          &.current-menu-item, &.current-menu-parent {
             &:hover {
               & > a {
                 &:before {
@@ -205,7 +205,7 @@
           }
           &.callout {
             background: $primary;
-            &.current-menu-item, .current-menu-parent {
+            &.current-menu-item, &.current-menu-parent {
               &:hover {
                 & > a {
                   &:before {

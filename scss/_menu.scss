@@ -66,7 +66,7 @@
     }
     .menu-menu-1-container {
       display: none;
-      @media (min-width: $desktopSize) {
+      @media (min-width: $tabletSize) {
         display: flex;
       }
       .menu {
@@ -79,7 +79,7 @@
         position: relative;
         width: 100%;
         padding: 0;
-        @media (min-width: $desktopSize) {
+        @media (min-width: $tabletSize) {
           flex-direction: row;
         }
         li.menu-item {
@@ -93,11 +93,11 @@
             background: $third;
             & > a {
               color: $white;
-              @media (min-width: $desktopSize) {
+              @media (min-width: $tabletSize) {
                 color: $primary;
               }
             }
-            @media (min-width: $desktopSize) {
+            @media (min-width: $tabletSize) {
               background: $white;
             }
           }
@@ -107,14 +107,14 @@
             padding-left: 15px;
             flex-direction: column;
             z-index: 1;
-            @media (min-width: $desktopSize) {
+            @media (min-width: $tabletSize) {
               display: none;
             }
           }
           &:hover {
             background: $third;
             .sub-menu {
-              @media (min-width: $desktopSize) {
+              @media (min-width: $tabletSize) {
                 display: flex;
                 position: absolute;
                 top: 90px;
@@ -132,7 +132,7 @@
                   a {
                     height: 50px;
                     color: $primary;
-                    @media (min-width: $desktopSize) {
+                    @media (min-width: $tabletSize) {
                       height: 60px;
                     }
                   }
@@ -160,13 +160,13 @@
             align-items: center;
             justify-content: center;
             height: 50px;
-            @media (min-width: $desktopSize) {
+            @media (min-width: $tabletSize) {
               height: 90px;
             }
           }
           &.callout {
             background: $primary;
-            @media (min-width: $desktopSize) {
+            @media (min-width: $tabletSize) {
               margin-left: auto;
             }
             a {

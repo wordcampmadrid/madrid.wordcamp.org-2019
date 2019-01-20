@@ -695,7 +695,7 @@ td, th {
   display: flex; }
 .secondary-navigation.page-navigation-container .menu-menu-1-container {
   display: none; }
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     .secondary-navigation.page-navigation-container .menu-menu-1-container {
       display: flex; } }
   .secondary-navigation.page-navigation-container .menu-menu-1-container .menu {
@@ -708,7 +708,7 @@ td, th {
     position: relative;
     width: 100%;
     padding: 0; }
-    @media (min-width: 1024px) {
+    @media (min-width: 768px) {
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu {
         flex-direction: row; } }
     .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item {
@@ -722,10 +722,10 @@ td, th {
         background: #da3e57; }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children > a {
           color: #FFFFFF; }
-          @media (min-width: 1024px) {
+          @media (min-width: 768px) {
             .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children > a {
               color: #d13144; } }
-        @media (min-width: 1024px) {
+        @media (min-width: 768px) {
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.menu-item-has-children {
             background: #FFFFFF; } }
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item .sub-menu {
@@ -734,12 +734,12 @@ td, th {
         padding-left: 15px;
         flex-direction: column;
         z-index: 1; }
-        @media (min-width: 1024px) {
+        @media (min-width: 768px) {
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item .sub-menu {
             display: none; } }
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover {
         background: #da3e57; }
-        @media (min-width: 1024px) {
+        @media (min-width: 768px) {
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu {
             display: flex;
             position: absolute;
@@ -753,7 +753,7 @@ td, th {
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu li.menu-item a {
           height: 50px;
           color: #d13144; }
-          @media (min-width: 1024px) {
+          @media (min-width: 768px) {
             .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu li.menu-item a {
               height: 60px; } }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover a {
@@ -775,12 +775,12 @@ td, th {
         align-items: center;
         justify-content: center;
         height: 50px; }
-        @media (min-width: 1024px) {
+        @media (min-width: 768px) {
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item a {
             height: 90px; } }
       .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout {
         background: #d13144; }
-        @media (min-width: 1024px) {
+        @media (min-width: 768px) {
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout {
             margin-left: auto; } }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item.callout a {

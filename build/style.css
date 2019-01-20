@@ -1537,7 +1537,7 @@ body:not(.home) .site-main {
             .widget_rss ul li a:before {
               font-size: 5rem;
               right: 0;
-              left: 70px;
+              left: 0;
               top: -10px; } }
         .widget_rss ul li a:hover:after {
           width: 5rem; }

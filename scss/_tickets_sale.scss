@@ -11,8 +11,11 @@
 	flex-direction: row;
 	.custom-html-widget {
 		display: flex;
-		flex-direction: row;
-		transform: rotate(-5deg);
+		flex-direction: column;
+		@media (min-width: $tabletSize) {
+		  flex-direction: row;
+		  transform: rotate(-5deg);
+		}
 		.label {
 			margin-right: 60px;
 		}
@@ -29,12 +32,12 @@
 	}
 	&:before, &:after {
 		content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -10px;
-    right: -10px;
-    z-index: -1;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: -10px;
+		right: -10px;
+		z-index: -1;
 	}
 	&:before {
 		background: $third;

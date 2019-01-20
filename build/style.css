@@ -1490,8 +1490,11 @@ body:not(.home) .site-main {
   display: flex;
   justify-content: space-between; }
   .widget_rss ul li {
-    width: 33%;
+    width: 100%;
     list-style: none; }
+    @media (min-width: 768px) {
+      .widget_rss ul li {
+        width: 33%; } }
     .widget_rss ul li a {
       color: black;
       text-decoration: none;
@@ -1514,10 +1517,18 @@ body:not(.home) .site-main {
         position: relative;
         opacity: .1;
         font-size: 1.5rem;
+        text-transform: uppercase;
+        position: absolute;
+        opacity: 0.05;
+        z-index: -1;
+        color: grey;
         text-transform: uppercase; }
         @media (min-width: 768px) {
           .widget_rss ul li a:before {
-            font-size: 5rem; } }
+            font-size: 5rem;
+            right: 0;
+            left: 70px;
+            top: -10px; } }
       .widget_rss ul li a:hover:after {
         width: 5rem; }
 

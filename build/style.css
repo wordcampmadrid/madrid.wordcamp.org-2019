@@ -556,6 +556,8 @@ body {
     margin-bottom: 10px; }
     body:not(.home) .entry-title > a:visited {
       color: #000000; }
+  body .entry-content ul li {
+    margin-bottom: 15px; }
 
 input[type="email"], input[type="text"] {
   padding: .75rem; }

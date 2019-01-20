@@ -77,13 +77,13 @@
   margin: 30px auto;
   @media (min-width: $tabletSize) {
     margin: 80px auto;
+    max-width: 960px;
   }
   ul {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
     flex-direction: column;
-    max-width: 960px;
     @media (min-width: $tabletSize) {
       flex-direction: row;
     }

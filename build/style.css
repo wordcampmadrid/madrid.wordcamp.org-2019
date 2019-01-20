@@ -1494,13 +1494,13 @@ body:not(.home) .site-main {
   margin: 30px auto; }
   @media (min-width: 768px) {
     .widget_rss {
-      margin: 80px auto; } }
+      margin: 80px auto;
+      max-width: 960px; } }
   .widget_rss ul {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    flex-direction: column;
-    max-width: 960px; }
+    flex-direction: column; }
     @media (min-width: 768px) {
       .widget_rss ul {
         flex-direction: row; } }

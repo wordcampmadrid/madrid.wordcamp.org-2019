@@ -780,7 +780,8 @@ td, th {
             top: 90px;
             padding-left: 0;
             left: 0;
-            width: auto; } }
+            width: auto;
+            min-width: 350px; } }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu li.menu-item:hover {
           background: #d13144; }
           .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu li.menu-item:hover a {

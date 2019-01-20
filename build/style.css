@@ -825,7 +825,8 @@ td, th {
             padding-left: 0;
             left: 0;
             width: auto;
-            min-width: 350px; } }
+            min-width: 350px;
+            margin: 0; } }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu li.menu-item.current-menu-item > a:before {
           display: none; }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu li.menu-item:hover {

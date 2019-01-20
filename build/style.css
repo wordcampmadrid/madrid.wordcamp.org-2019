@@ -1502,7 +1502,6 @@ body:not(.home) .site-main {
     flex-direction: column; }
     @media (min-width: 768px) {
       .widget_rss ul {
-        width: 33%;
         flex-direction: row; } }
     .widget_rss ul li {
       width: 100%;

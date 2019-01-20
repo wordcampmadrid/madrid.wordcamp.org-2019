@@ -84,7 +84,6 @@
     padding: 0 10px;
     flex-direction: column;
     @media (min-width: $tabletSize) {
-      width: 33%;
       flex-direction: row;
     }
     li {

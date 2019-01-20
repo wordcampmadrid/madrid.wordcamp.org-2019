@@ -1438,10 +1438,14 @@ body:not(.home) .site-main {
     text-align: center; }
   .widget_recent_entries ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     list-style-type: none;
     padding: 3rem;
     margin: 0; }
+    @media (min-width: 768px) {
+      .widget_recent_entries ul {
+        flex-direction: row; } }
   .widget_recent_entries li {
     width: 50%; }
   .widget_recent_entries a {

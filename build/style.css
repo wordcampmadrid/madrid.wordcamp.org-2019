@@ -1661,4 +1661,17 @@ body:not(.home) .site-main {
     width: 100%;
     position: absolute; }
 
+.blog .site-main {
+  display: flex;
+  max-width: 960px;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .blog .site-main {
+      flex-direction: row; } }
+  .blog .site-main article {
+    width: 100%; }
+    @media (min-width: 768px) {
+      .blog .site-main article {
+        width: 33%; } }
+
 /*# sourceMappingURL=style.css.map */

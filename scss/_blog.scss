@@ -1,0 +1,16 @@
+.blog {
+  .site-main {
+    display: flex;
+    max-width: 960px;
+    flex-direction: column;
+    @media (min-width: $tabletSize) {
+      flex-direction: row;
+    }
+    article {
+      width: 100%;
+      @media (min-width: $tabletSize) {
+        width: 33%;
+      }
+    }
+  }
+}

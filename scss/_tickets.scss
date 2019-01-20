@@ -3,3 +3,257 @@
 #custom_html-7 {
   padding: 3rem 0;
 }
+
+/* Tickets */
+
+#tix {
+  *zoom:1;
+  &:after, &:before {
+    content:"";
+    display:table
+  }
+  &:after {
+    clear:both
+  }
+}
+
+#tix-errors, #tix-notices {
+  margin-bottom: 20px;
+}
+
+.tix-error, .tix-notice, .tix-info {
+  margin: 2px 0;
+  padding: 4px 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  p {
+    margin: 0 0 1em 0;
+    padding: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.tix-error {
+  background: #FFEBE8;
+  border: solid 1px #C00;
+}
+
+.tix-notice {
+  background: lightYellow;
+  border: solid 1px #E6DB55;
+}
+
+.tix-info {
+  background: #EFF8DF;
+  border: solid 1px #B2D37D;
+}
+
+.tix-clear {
+  height: 0;
+  line-height: 0;
+  display: block;
+  font-size: 0;
+  clear: both;
+}
+
+.tix-required-star {
+  color: #DD0000;
+}
+
+.tix_tickets_table {
+  border-top:3px double #d13144;
+  border-bottom:3px double #d13144;
+  margin-bottom:1.5rem;
+  thead {
+    th {
+      color: rgba(29,36,42,.75);
+      text-transform: uppercase;
+      font-size: 12px;
+      font-size: .75rem;
+    }
+    tr {
+      @media (max-width:47.9375em) {
+        display:none
+      }
+    }
+  }
+  td, th {
+    border-color: $primary;
+    &:first-child {
+      padding-left:0
+    }
+    &:last-child {
+      padding-right:0
+    }
+  }
+  .tix-ticket-title {
+    display:block;
+    font-size:1.25em;
+    color:rgba(29,36,42,.9);
+    &+br {
+      display:none
+    }
+  }
+  .tix-ticket-excerpt {
+    display:block;
+    margin-top:.25rem;
+    color:rgba(29,36,42, 1);
+    font-size: 12px;
+    font-size:.75rem;
+  }
+  .tix-column-price, .tix-column-quantity, .tix-column-remaining {
+    font-weight:700
+  }
+  @media (max-width:47.9375em) {
+    tbody {
+      .tix-column-description {
+        display:block;
+        width:100%
+      }
+      .tix-column-price, .tix-column-quantity, .tix-column-remaining {
+        display:block;
+        float:left
+      }
+      .tix-column-price {
+        padding-left:0
+      }
+      .tix-column-price, .tix-column-remaining {
+        padding-top:1rem;
+        padding-bottom:1rem;
+        line-height:1.5em;
+        width:25%
+      }
+      .tix-column-quantity {
+        width:25%
+      }
+    }
+  }
+}
+
+#tix-coupon-container {
+  position:relative;
+  padding-right:10rem;
+  input[type=text] {
+    border-top-right-radius:0;
+    border-bottom-right-radius:0
+  }
+  input[type=submit] {
+    position:absolute;
+    top:0;
+    right:0;
+    width:10rem;
+    padding:.4375rem .625rem;
+    color:hsla(0,0%,100%,.9);
+    background-color:#575357;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0
+  }
+}
+
+
+/* Asistentes */
+
+#tix-attendees {
+  *zoom:1;
+  &:after, &:before {
+    content:"";
+    display:table;
+  }
+  &:after {
+    clear:both;
+  }
+  li {
+    position:relative;
+    margin-top:0;
+    margin-bottom:1.5rem;
+    height:auto;
+    min-height:3rem;
+    padding-left:4rem;
+    padding-right:.5rem;
+    font-size:.8em;
+    line-height:1.25em;
+    text-align:left;
+    &:hover {
+      .avatar {
+        transform:scale(1.1);
+      }
+    }
+  }
+  a {
+    display:block;
+  }
+  .avatar {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:100;
+    margin:0;
+    width:3rem;
+    height:3rem;
+    box-shadow: 3px 3px 0 rgba(255,0,0,0.2);
+    border: 3px solid $primary;
+    border-radius:10px;
+    background-color: $white;
+    transition:all .15s ease;
+  }
+  .tix-columns-3 {
+  li {
+    width:100%;
+    @media (min-width:37.5em) {
+      width:50%;
+      &:nth-child(odd) {
+        clear:left
+      }
+    }
+    @media (min-width:62em) {
+      width:33.33333%;
+      &:nth-child(odd) {
+        clear:none
+      }
+      :nth-child(3n+1) {
+        clear:left
+      }
+    }
+  }
+}
+  .tix-field {
+    display:inline-block;
+    margin:0;
+    margin-right:.5rem;
+    font-size:14px;
+    line-height:1.5625em;
+    vertical-align:middle
+  }
+  .tix-attendee-name {
+    display:block;
+    padding-right:0;
+    margin-right:0;
+    margin-bottom:.125rem;
+    color:rgba(29,36,42,.9);
+    font-size:18px;
+    line-height:1.25em;
+    background:none
+  }
+  .tix-attendee-url {
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    max-width:11.25rem
+  }
+  .tix-attendee-twitter {
+    &:last-child {
+      &:after {
+        display:none
+      }
+    }
+  }
+}
+
+.tix-attendee-list {
+  list-style:none;
+  margin:0;
+  padding:0;
+}

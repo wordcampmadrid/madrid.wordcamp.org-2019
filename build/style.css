@@ -462,7 +462,8 @@ body:not(.home) .custom-header {
   @media (min-width: 768px) {
     body:not(.home) .custom-header {
       min-height: 350px;
-      background: url(https://2019.madrid.wordcamp.org/files/2019/01/corta-wordcamp-madrid-bg-fondo-oso.jpg) no-repeat; } }
+      background: url(https://2019.madrid.wordcamp.org/files/2019/01/corta-wordcamp-madrid-bg-fondo-oso.jpg) no-repeat;
+      background-size: cover; } }
   body:not(.home) .custom-header .custom-logo-link {
     padding-bottom: 0; }
   body:not(.home) .custom-header img {
@@ -925,7 +926,8 @@ body:not(.home) .custom-header {
   @media (min-width: 768px) {
     body:not(.home) .custom-header {
       min-height: 350px;
-      background: url(https://2019.madrid.wordcamp.org/files/2019/01/corta-wordcamp-madrid-bg-fondo-oso.jpg) no-repeat; } }
+      background: url(https://2019.madrid.wordcamp.org/files/2019/01/corta-wordcamp-madrid-bg-fondo-oso.jpg) no-repeat;
+      background-size: cover; } }
   body:not(.home) .custom-header .custom-logo-link {
     padding-bottom: 0; }
   body:not(.home) .custom-header img {

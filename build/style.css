@@ -744,7 +744,8 @@ td, th {
             display: flex;
             position: absolute;
             top: 90px;
-            padding-left: 65px;
+            padding-left: 0;
+            left: 0;
             width: auto; } }
         .secondary-navigation.page-navigation-container .menu-menu-1-container .menu li.menu-item:hover .sub-menu li.menu-item:hover {
           background: #d13144; }

@@ -684,7 +684,7 @@ td, th {
     margin-right: 0;
     margin-left: 0;
     z-index: 3; }
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     .menu-toggle {
       display: none; } }
 

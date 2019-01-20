@@ -49,7 +49,7 @@
     z-index: 3;
   }
 
-  @media (min-width: $desktopSize)  {
+  @media (min-width: $tabletSize)  {
     display: none;
   }
 }

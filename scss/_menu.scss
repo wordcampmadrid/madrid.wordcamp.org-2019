@@ -95,6 +95,8 @@
                 position: absolute;
                 content: '';
                 border-bottom: solid 2px $primary;
+                width: 60%;
+                bottom: 30px;
               }
             }
           }
@@ -185,6 +187,28 @@
           }
           &.callout {
             background: $primary;
+            &.current-menu-item {
+              &:hover {
+                a {
+                  &:before {
+                    position: absolute;
+                    content: '';
+                    border-bottom: solid 2px $primary;
+                    width: 60%;
+                    bottom: 30px;
+                  }
+                }
+              }
+              a {
+                &:before {
+                  position: absolute;
+                  content: '';
+                  border-bottom: solid 2px $white;
+                  width: 60%;
+                  bottom: 30px;
+                }
+              }
+            }
             @media (min-width: $tabletSize) {
               margin-left: auto;
             }

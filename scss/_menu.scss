@@ -3,14 +3,26 @@
 */
 
 .menu-toggle {
-  visibility: hidden;
+  visibility: visible;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
+  position: relative;
+  z-index: 1;
   &:hover {
     cursor: pointer;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    background: $white;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 50px;
   }
   &:before {
     content: '🍔';
@@ -35,6 +47,7 @@
     margin-right: 0;
     margin-left: 0;
   }
+
   @media (min-width: $desktopSize)  {
     display: none;
   }

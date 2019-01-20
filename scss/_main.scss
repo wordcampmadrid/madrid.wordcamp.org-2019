@@ -176,3 +176,13 @@ td,th {
   max-width: 640px;
   text-align: center;
 }
+
+.entry-meta {
+  font-size: 12px;
+  color: grey;
+  a {
+    color: grey;
+    text-decoration: none;
+    border-bottom: 1px solid $primary;
+  }
+}

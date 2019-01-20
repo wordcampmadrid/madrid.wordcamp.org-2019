@@ -608,6 +608,9 @@ td, th {
 .single-post .entry-title {
   color: #000000;
   text-decoration: none; }
+.single-post ul {
+  margin-block-end: 1.5em;
+  margin-block-start: 1.5em; }
 
 .entry-title {
   color: #d13144;

@@ -119,6 +119,13 @@ td,th {
   padding: 3rem 1rem;
 }
 
+.single-post {
+  .entry-title {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
 .entry-title {
   color: $primary;
   font-size: 48px;

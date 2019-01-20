@@ -111,12 +111,20 @@
           }
           .sub-menu {
             width: 100%;
-            padding-left: 15px;
+            padding-left: 0;
             flex-direction: column;
             z-index: 1;
             display: block;
             @media (min-width: $tabletSize) {
               display: none;
+            }
+            .menu-item {
+              a {
+                padding-left: 15px;
+                @media (min-width: $tabletSize) {
+                  padding-left: 0;
+                }
+              }
             }
           }
           &:hover {

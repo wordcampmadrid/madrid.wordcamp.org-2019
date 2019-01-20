@@ -1337,7 +1337,7 @@ td, th {
       display: inline-block;
       position: relative;
       opacity: .1;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-transform: uppercase; }
       @media (min-width: 768px) {
         .widget_recent_entries a:before {

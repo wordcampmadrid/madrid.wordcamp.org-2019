@@ -26,6 +26,30 @@
   }
 }
 
+body {
+  &:not(.home) {
+    .custom-header {
+      min-height: 200px;
+      @media (min-width: $tabletSize) {
+        min-height: 200px;
+      }
+      .custom-logo-link {
+        padding-bottom: 0;
+      }
+      img {
+        max-width: 100px;
+        max-height: 100px;
+      }
+      .site-title {
+        margin: 1rem 0;
+      }
+    }
+    .site-main {
+      padding-top: 0;
+    }
+  }
+}
+
 .site-title {
   display: flex;
   color: #fff;

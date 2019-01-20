@@ -457,6 +457,21 @@ template {
     padding: 1.5rem;
     position: relative; }
 
+body:not(.home) .custom-header {
+  min-height: 200px; }
+  @media (min-width: 768px) {
+    body:not(.home) .custom-header {
+      min-height: 200px; } }
+  body:not(.home) .custom-header .custom-logo-link {
+    padding-bottom: 0; }
+  body:not(.home) .custom-header img {
+    max-width: 100px;
+    max-height: 100px; }
+  body:not(.home) .custom-header .site-title {
+    margin: 1rem 0; }
+body:not(.home) .site-main {
+  padding-top: 0; }
+
 .site-title {
   display: flex;
   color: #fff;
@@ -900,6 +915,21 @@ td, th {
     justify-content: center;
     padding: 1.5rem;
     position: relative; }
+
+body:not(.home) .custom-header {
+  min-height: 200px; }
+  @media (min-width: 768px) {
+    body:not(.home) .custom-header {
+      min-height: 200px; } }
+  body:not(.home) .custom-header .custom-logo-link {
+    padding-bottom: 0; }
+  body:not(.home) .custom-header img {
+    max-width: 100px;
+    max-height: 100px; }
+  body:not(.home) .custom-header .site-title {
+    margin: 1rem 0; }
+body:not(.home) .site-main {
+  padding-top: 0; }
 
 .site-title {
   display: flex;

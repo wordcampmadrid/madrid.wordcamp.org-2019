@@ -530,7 +530,8 @@ body {
       border-bottom: 3px solid #d13144; }
   body:not(.home) .entry-title {
     color: #000000;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-bottom: 10px; }
 
 input[type="email"], input[type="text"] {
   padding: .75rem; }
@@ -653,6 +654,10 @@ td, th {
     border-bottom: 1px solid #d13144; }
   .entry-meta .edit-link, .entry-footer .edit-link {
     margin-left: 20px; }
+
+.entry-meta {
+  text-align: center;
+  margin-bottom: 50px; }
 
 /*
   Menu

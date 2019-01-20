@@ -26,6 +26,7 @@ body {
     .entry-title {
       color: #000000;
       text-decoration: none;
+      margin-bottom: 10px;
     }
   }
 }
@@ -189,4 +190,8 @@ td,th {
   .edit-link {
     margin-left: 20px;
   }
+}
+.entry-meta {
+  text-align: center;
+  margin-bottom: 50px;
 }

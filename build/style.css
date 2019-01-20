@@ -1491,15 +1491,16 @@ body:not(.home) .site-main {
   display: none; }
 
 .widget_rss {
-  margin: 30px 0; }
+  margin: 30px auto; }
   @media (min-width: 768px) {
     .widget_rss {
-      margin: 80px 0; } }
+      margin: 80px auto; } }
   .widget_rss ul {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    flex-direction: column; }
+    flex-direction: column;
+    max-width: 960px; }
     @media (min-width: 768px) {
       .widget_rss ul {
         flex-direction: row; } }

@@ -92,22 +92,32 @@
           &.current-menu-item, &.current-menu-parent {
             &:hover {
               & > a {
+                position: relative;
                 &:before {
                   position: absolute;
                   content: '';
                   border-bottom: solid 2px $white;
-                  width: 60%;
-                  bottom: 30px;
+                  width: 40%;
+                  bottom: 8px;
+                  @media (min-width: $tabletSize) {
+                    bottom: 30px;
+                    width: 60%;
+                  }
                 }
               }
             }
             & > a {
+              position: relative;
               &:before {
                 position: absolute;
                 content: '';
                 border-bottom: solid 2px $primary;
-                width: 60%;
-                bottom: 30px;
+                width: 40%;
+                bottom: 8px;
+                @media (min-width: $tabletSize) {
+                  bottom: 30px;
+                  width: 60%;
+                }
               }
             }
           }
@@ -208,22 +218,32 @@
             &.current-menu-item, &.current-menu-parent {
               &:hover {
                 & > a {
+                  position: relative;
                   &:before {
                     position: absolute;
                     content: '';
                     border-bottom: solid 2px $primary;
-                    width: 60%;
-                    bottom: 30px;
+                    width: 40%;
+                    bottom: 8px;
+                    @media (min-width: $tabletSize) {
+                      bottom: 30px;
+                      width: 60%;
+                    }
                   }
                 }
               }
               & > a {
+                position: relative;
                 &:before {
                   position: absolute;
                   content: '';
                   border-bottom: solid 2px $white;
                   width: 60%;
                   bottom: 30px;
+                  @media (min-width: $tabletSize) {
+                    bottom: 30px;
+                    width: 60%;
+                  }
                 }
               }
             }

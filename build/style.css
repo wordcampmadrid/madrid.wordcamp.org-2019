@@ -1535,7 +1535,7 @@ body:not(.home) .site-main {
           text-transform: uppercase; }
           @media (min-width: 768px) {
             .widget_rss ul li a:before {
-              font-size: 5rem;
+              font-size: 3rem;
               right: 0;
               left: 0;
               top: -10px; } }

@@ -94,15 +94,9 @@
             justify-content: center;
           }
           &.menu-item-has-children {
-            background: $third;
+            background: $white;
             & > a {
-              color: $white;
-              @media (min-width: $tabletSize) {
-                color: $primary;
-              }
-            }
-            @media (min-width: $tabletSize) {
-              background: $white;
+              color: $primary;
             }
           }
           .sub-menu {

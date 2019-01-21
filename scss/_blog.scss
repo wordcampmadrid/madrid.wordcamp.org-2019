@@ -9,9 +9,6 @@
     }
     article {
       width: 100%;
-      @media (min-width: $tabletSize) {
-        width: 30%;
-      }
       a {
         &:-webkit-any-link {
           color: $black;

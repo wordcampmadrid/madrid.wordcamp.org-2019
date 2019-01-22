@@ -1497,7 +1497,6 @@ body:not(.home) .site-main {
       .widget_rss ul {
         flex-direction: row; } }
     .widget_rss ul li {
-      width: 100%;
       list-style: none;
       margin-bottom: 40px; }
       @media (min-width: 768px) {

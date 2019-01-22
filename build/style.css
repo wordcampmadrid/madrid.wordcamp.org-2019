@@ -1163,16 +1163,6 @@ body:not(.home) .site-main {
   #tix-coupon-container input[type=text] {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; }
-  #tix-coupon-container input[type=submit] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10rem;
-    padding: .4375rem .625rem;
-    color: rgba(255, 255, 255, 0.9);
-    background-color: #575357;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0; }
 
 /* Asistentes */
 #tix-attendees {

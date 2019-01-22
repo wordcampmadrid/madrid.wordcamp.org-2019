@@ -1499,9 +1499,6 @@ body:not(.home) .site-main {
     .widget_rss ul li {
       list-style: none;
       margin-bottom: 40px; }
-      @media (min-width: 768px) {
-        .widget_rss ul li {
-          width: 33%; } }
       .widget_rss ul li a {
         color: black;
         text-decoration: none;

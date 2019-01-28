@@ -1013,7 +1013,8 @@ body:not(.home) .site-main {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row; }
+  flex-direction: row;
+  text-align: center; }
   #custom_html-5 .custom-html-widget {
     display: flex;
     flex-direction: column;

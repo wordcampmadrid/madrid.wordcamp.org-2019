@@ -5,14 +5,11 @@
     flex-direction: column;
     @media (min-width: $tabletSize) {
       flex-direction: row;
-      flex-wrap: wrap;
     }
     article {
       width: 100%;
-      a {
-        &:-webkit-any-link {
-          color: $black;
-        }
+      @media (min-width: $tabletSize) {
+        width: 100%;
       }
     }
   }

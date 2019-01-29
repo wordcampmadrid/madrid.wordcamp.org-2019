@@ -198,13 +198,7 @@
       }
     }
     @media (min-width:62em) {
-      width:33.33333%;
-      &:nth-child(odd) {
-        clear:none
-      }
-      :nth-child(3n+1) {
-        clear:left
-      }
+      width:calc(33.33333% - 80px);
     }
   }
 }

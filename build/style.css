@@ -1216,11 +1216,7 @@ body:not(.home) .site-main {
           clear: left; } }
     @media (min-width: 62em) {
       #tix-attendees .tix-columns-3 li {
-        width: 33.33333%; }
-        #tix-attendees .tix-columns-3 li:nth-child(odd) {
-          clear: none; }
-        #tix-attendees .tix-columns-3 li :nth-child(3n+1) {
-          clear: left; } }
+        width: calc(33.33333% - 80px); } }
   #tix-attendees .tix-field {
     display: inline-block;
     margin: 0;

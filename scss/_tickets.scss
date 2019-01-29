@@ -194,11 +194,14 @@
     @media (min-width:37.5em) {
       width:50%;
       &:nth-child(odd) {
-        clear:left
+        clear:left;
       }
     }
     @media (min-width:62em) {
       width:calc(33.33333% - 80px);
+      &:nth-child(odd) {
+        clear:inherit;
+      }
     }
   }
 }

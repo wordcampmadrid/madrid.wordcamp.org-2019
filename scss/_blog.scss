@@ -3,11 +3,13 @@
     display: flex;
     max-width: 960px;
     flex-direction: column;
-    article {
-      width: 100%;
-      @media (min-width: $tabletSize) {
-        width: 100%;
-      }
+  }
+}
+
+.archive {
+  .page-header {
+    .page-title {
+      display: none;
     }
   }
 }

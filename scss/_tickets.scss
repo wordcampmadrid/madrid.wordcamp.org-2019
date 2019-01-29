@@ -199,7 +199,7 @@
     }
     @media (min-width:62em) {
       width:calc(33.33333% - 80px);
-      &:nth-child(odd) {
+      &:nth-child(3n+1) {
         clear:inherit;
       }
     }

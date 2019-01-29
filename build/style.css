@@ -1217,7 +1217,7 @@ body:not(.home) .site-main {
     @media (min-width: 62em) {
       #tix-attendees .tix-columns-3 li {
         width: calc(33.33333% - 80px); }
-        #tix-attendees .tix-columns-3 li:nth-child(odd) {
+        #tix-attendees .tix-columns-3 li:nth-child(3n+1) {
           clear: inherit; } }
   #tix-attendees .tix-field {
     display: inline-block;

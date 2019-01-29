@@ -1207,14 +1207,17 @@ body:not(.home) .site-main {
     border-radius: 10px;
     background-color: #FFFFFF;
     transition: all .15s ease; }
-  #tix-attendees .tix-columns-3 li {
-    width: 100%; }
-    @media (min-width: 37.5em) {
-      #tix-attendees .tix-columns-3 li {
-        width: 50%; } }
-    @media (min-width: 62em) {
-      #tix-attendees .tix-columns-3 li {
-        width: calc(33.33333% - 80px); } }
+  #tix-attendees .tix-columns-3 {
+    display: flex;
+    flex-wrap: wrap; }
+    #tix-attendees .tix-columns-3 li {
+      width: 100%; }
+      @media (min-width: 37.5em) {
+        #tix-attendees .tix-columns-3 li {
+          width: 50%; } }
+      @media (min-width: 62em) {
+        #tix-attendees .tix-columns-3 li {
+          width: calc(33.33333% - 80px); } }
   #tix-attendees .tix-field {
     display: inline-block;
     margin: 0;

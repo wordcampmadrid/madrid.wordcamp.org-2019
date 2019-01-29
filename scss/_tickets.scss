@@ -189,6 +189,8 @@
     transition:all .15s ease;
   }
   .tix-columns-3 {
+    display: flex;
+    flex-wrap: wrap;
   li {
     width:100%;
     @media (min-width:37.5em) {
